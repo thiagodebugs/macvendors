@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MAC Vendors</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <header>
-        <h1>MAC Vendors</h1>
-        <h2>Descubra o fornecedor do endereço MAC</h2>
-    </header>
-    <section class="container">
-        <div>
-            <h3>Enter a MAC Address</h3>
-            <form method="POST" action="./macvendorsapi.php">
-                <input class="field" name="mac" placeholder="00:00:00:00:00:00" autofocus>
-                <input class="field" type="submit" value="Enviar">
-            </form>
-        </div>
-</body>
-
+  <body>
+      <div class="container">
+        <h1 style="margin: 5px 0">MAC Vendors</h1>
+        <p style="margin: 5px 0">Descubra o fornecedor do endereço MAC</p>
+        <h3 style="margin-top: 30px">Enter a MAC Address</h3>
+        <form style="margin: 10px 0" method="POST" action="./macvendorsapi.php">
+          <input
+            class="field"
+            name="mac"
+            placeholder="00:00:00:00:00:00"
+            autofocus
+          />
+          <input class="field" type="submit" value="Enviar" />
+        </form>
+      </div>
+  </body>
 </html>

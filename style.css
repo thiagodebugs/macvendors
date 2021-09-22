@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #333;
+}
+
+.container {
+  background-color: #222;
+  color: #eee;
+  max-width: 350px;
+  min-height: 40vh;
+  margin: 10vh auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 1px greenyellow;
+}
+
+input {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 2px;
+}
